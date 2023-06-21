@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "binScript": "./bin/binScript.js"
+  },
   "scripts": {
     "start": "node .",
     "minimalReplicated": "node ./minimal.js connect",
