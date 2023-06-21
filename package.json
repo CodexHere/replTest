@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
+    "minimalReplicated": "node ./minimal.js connect",
     "cli": "moleculer connect",
     "nodeRepl": "node ./nodeRepl.js"
   },
@@ -16,6 +17,7 @@
     "moleculer": "^0.14.29",
     "moleculer-cli": "^0.8.1",
     "moleculer-repl": "^0.7.3",
-    "nats": "^2.15.0"
+    "nats": "^2.15.0",
+    "yargs": "^17.7.2"
   }
 }
